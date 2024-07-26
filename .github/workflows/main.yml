@@ -20,7 +20,7 @@ jobs:
         run: |
           flutter pub get
       - name: Build
-        run: flutter build web --base-href=/rfw_studio/
+        run: flutter build web --base-href=/rfw_studio/ --no-tree-shake-icons
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
