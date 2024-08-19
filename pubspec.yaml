@@ -11,7 +11,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   rfw: ^1.0.29
   flutter_fancy_tree_view: ^1.6.0
-  signals: ^5.3.0
+  signals: ^5.4.0
   collection: ^1.18.0
   dart_mappable: ^4.2.2
   form_builder_validators: ^11.0.0
