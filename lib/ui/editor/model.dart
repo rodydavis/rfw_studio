@@ -136,11 +136,25 @@ const _defaultJson = '''
 const _defaultRfw = '''
 import widgets;
 
-widget root = Center(
-  child: Button(
-    child: Text(text: ["Hello ", data.greet.name]),
-    onPressed: event "click" {},
-  ),
+widget root = Column(
+  children: [
+    Button(
+      child: Text(text: ["Hello ", data.greet.name]),
+      onPressed: event "click" {},
+    ),
+    Button(
+      child: Text(text: ["Hello ", data.greet.name]),
+      onPressed: event "click" {},
+    ),
+    Button(
+      child: Text(text: ["Hello ", data.greet.name]),
+      onPressed: event "click" {},
+    ),
+    Button(
+      child: Text(text: ["Hello ", data.greet.name]),
+      onPressed: event "click" {},
+    ),
+  ] 
 );
 
 widget Button { down: false } = GestureDetector(
@@ -277,6 +291,26 @@ class RfwNode {
       // AnyEventHandler val => EventNode(val, parent),
       // DataReference val => DataNode(val, parent),
       // Object? val => ValueNode(val, parent),
+
+      final List<Object?> children => () {
+          final node = RfwNode(
+            target,
+            '',
+            parent: parent,
+            prefix: prefix,
+            color: Colors.green,
+          );
+          for (final child in children) {
+            node.children.add(
+              RfwNode.parse(
+                child,
+                parent: node,
+                prefix: child?.toString(),
+              ),
+            );
+          }
+          return node;
+        }(),
       (Object? _) => RfwNode(
           target ?? Object(),
           'Value',
