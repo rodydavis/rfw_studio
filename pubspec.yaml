@@ -13,7 +13,7 @@ dependencies:
   flutter_fancy_tree_view: ^1.6.0
   signals: ^5.5.0
   collection: ^1.18.0
-  dart_mappable: ^4.2.2
+  dart_mappable: ^4.3.0
   form_builder_validators: ^11.0.0
 
 dev_dependencies:
