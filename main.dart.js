@@ -26053,8 +26053,7 @@ break
 case 39:switch(j){case-1:throw A.i(A.br("Unexpected end of file in block comment",m,l))
 case 47:k=B.an
 break
-default:k=B.Ap
-break}r=6
+default:k=B.Ap}r=6
 break
 case 6:r=3
 break
@@ -31317,7 +31316,7 @@ A.awF.prototype={
 $1(a){var s=A.eV().b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/36335019a8eab588c3c2ea783c618d90505be233/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/db49896cf25ceabc44096d5f088d86414e05a7aa/":s)+a},
 $S:242}
 A.a0R.prototype={
 dg(){B.d.av(this.a.a.save())},
