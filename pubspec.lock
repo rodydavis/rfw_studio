@@ -180,10 +180,10 @@ packages:
     dependency: "direct main"
     description:
       name: rfw
-      sha256: b7c5f9b24b69e3581dc1cf70ec366e53b0b4f73d60ed05886f3726cf4abebe0b
+      sha256: "4a809f714c9bf81ef914886632358a7da7a2bb4b79a8e3da8864d11c44636e1e"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.29"
+    version: "1.0.30"
   signals:
     dependency: "direct main"
     description:

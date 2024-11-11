@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  rfw: ^1.0.29
+  rfw: ^1.0.30
   flutter_fancy_tree_view: ^1.6.0
   signals: ^5.5.0
   collection: ^1.18.0
