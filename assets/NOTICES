@@ -4378,6 +4378,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 clock
 fake_async
+preact_signals
 signals
 signals_core
 signals_flutter
